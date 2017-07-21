@@ -21,7 +21,7 @@ class App extends Component {
         fetch(FETCH_URL, {
             method: 'GET',
             headers: new Headers({
-            "Authorization": "Bearer BQDdWRzzFxigFv5Xjtdp3OKO_bTIiFwI0-jWCjzV4_nx6WFX7931xI7s2keD6uJmqDAEMbZw6HgbfJG9MSXaKHtT7sGr_Vfuj5RYKmSN38GTtdxAHKMgWpwCHdEyrq8_mwDgV9KWH9ekpWSwycTtw26tEP8D5rZZ-aRSEODv-1R4XlpKf0I&refresh_token=AQDJMsy923GLRW-wVsMBKFbFgoo-TTQTJJWKXh3mceSVxjL57WmeJlKFYHEEY5bCXwkZHtFUKcFV9horPVzCP0Mjqy37PFiak2m0YL9NIKmOCUKZHUqWJ5uWn6YFiSU8KBY"
+            "Authorization": "Bearer BQDveMluYpjSJ-gPaXafg39xlVvMm-YJ_9bqnknWC3IVqhO5omMwQljq7lXsemkMTcflPKQI150UrLdsjIAqL3pPoudwpym-byGaeGs3vOe9ZLpukbKZfLPSKqlZn2qX4j5-hr6b34jX3UAVsULyaL-7UsFQApyu9FlKHrDQkD3IP89JDjo&refresh_token=AQAduH689eOc4mRC3y1DSRCb-rnF0dgNJqZ-fbkycE4HvodPbNzdFSHGnK4Wr9W_bdOS-PY7252y1F8DPAq3wRdqjDoWxwBYgcme4B3c712Ik1y6vUOg3tyBLjcMG9Kzo4g"
             })
         })
         .then(response => response.json())
